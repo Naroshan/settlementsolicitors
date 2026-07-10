@@ -1,15 +1,6 @@
 [build]
   publish = "."
 
-# Canonical domain is www (matches every canonical tag and sitemap.xml).
-# Force the apex/non-www host to redirect so both hosts don't serve
-# duplicate live content and split ranking signal.
-[[redirects]]
-  from = "https://settlementsolicitors.com/*"
-  to = "https://www.settlementsolicitors.com/:splat"
-  status = 301
-  force = true
-
 [[redirects]]
   from = "/*"
   to = "/404/index.html"
