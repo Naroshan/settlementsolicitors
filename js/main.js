@@ -1,0 +1,52 @@
+document.addEventListener('DOMContentLoaded', () => {
+  // Mobile nav (full-screen overlay menu)
+  const toggle = document.querySelector('.mobile-toggle');
+  const nav = document.querySelector('.nav-links');
+  if (toggle && nav) {
+    // Inject a secondary "Call" CTA just before the primary CTA, once
+    const cta = nav.querySelector('.nav-cta');
+    if (cta && !nav.querySelector('.menu-call')) {
+      const call = document.createElement('a');
+      call.className = 'menu-call';
+      call.href = 'tel:02030583365';
+      call.textContent = 'Call 020 3058 3365';
+      nav.insertBefore(call, cta);
+    }
+    const setOpen = (open) => {
+      nav.classList.toggle('open', open);
+      document.body.classList.toggle('menu-open', open);
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Menu');
+    };
+    toggle.addEventListener('click', () => setOpen(!nav.classList.contains('open')));
+    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setOpen(false)));
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setOpen(false); });
+  }
+
+  // Forms → Formspree
+  document.querySelectorAll('form[data-formspree]').forEach(form => {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('[type="submit"]');
+      const orig = btn.innerHTML;
+      btn.innerHTML = 'Sending…';
+      btn.disabled = true;
+      try {
+        const res = await fetch('https://formspree.io/f/mojzlojd', {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: new FormData(form)
+        });
+        if (res.ok) {
+          form.style.display = 'none';
+          const s = form.nextElementSibling;
+          if (s && s.classList.contains('form-success')) s.style.display = 'block';
+        } else { throw new Error(); }
+      } catch {
+        alert('There was a problem. Please call us on 020 3058 3365.');
+        btn.innerHTML = orig;
+        btn.disabled = false;
+      }
+    });
+  });
+});

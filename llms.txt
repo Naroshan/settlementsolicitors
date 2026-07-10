@@ -1,0 +1,33 @@
+# Settlement Solicitors
+
+> Settlement Solicitors is a trading style of Ackroyd Legal (London) LLP, an SRA-regulated law firm. We give specialist employment law advice on settlement agreements, redundancy, and employment tribunal claims for employees and employers across England and Wales, with a free initial consultation.
+
+## Core services
+- [Settlement agreements](https://www.settlementsolicitors.com/settlement-agreements/): Advice on settlement agreements, terms and negotiation for employees and employers.
+- [Redundancy](https://www.settlementsolicitors.com/redundancy/): Redundancy rights, process and entitlements.
+- [Employment claims](https://www.settlementsolicitors.com/employment-claims/): Unfair dismissal, constructive dismissal, discrimination and tribunal claims.
+  - [Unfair dismissal](https://www.settlementsolicitors.com/unfair-dismissal/): Fair and automatically unfair dismissal, tribunal process, compensation.
+  - [Constructive dismissal](https://www.settlementsolicitors.com/constructive-dismissal/): Resigning over employer conduct, fundamental breach of contract.
+  - [Discrimination claims](https://www.settlementsolicitors.com/discrimination-claims/): Equality Act 2010 claims, protected characteristics, uncapped compensation.
+  - [Whistleblowing](https://www.settlementsolicitors.com/whistleblowing/): Protected disclosure claims, dismissal and detriment, no qualifying period.
+- [Restrictive covenants](https://www.settlementsolicitors.com/restrictive-covenants/): Non-compete, non-solicitation and non-dealing clause advice for employees and employers.
+- [TUPE](https://www.settlementsolicitors.com/tupe/): Business transfer, outsourcing and service provision change advice for employees and employers.
+- [Employer services](https://www.settlementsolicitors.com/employer-services/): Settlement and employment advice for employers.
+
+## Useful pages
+- [Fees](https://www.settlementsolicitors.com/fees/): How our fees work and when the employer pays.
+- [Book a consultation](https://www.settlementsolicitors.com/book/): Book a free Microsoft Teams consultation.
+- [Locations](https://www.settlementsolicitors.com/locations/): Areas we cover across England and Wales.
+- [About](https://www.settlementsolicitors.com/about/): About the firm.
+- [Contact](https://www.settlementsolicitors.com/contact/): Contact details and enquiry form.
+- [Glossary](https://www.settlementsolicitors.com/glossary/): Plain-English definitions of employment law and settlement agreement terms.
+- [Settlement agreement vs redundancy](https://www.settlementsolicitors.com/settlement-agreement-vs-redundancy/): How the two relate and what to check before signing.
+- [Settlement agreement vs resignation](https://www.settlementsolicitors.com/settlement-agreement-vs-resignation/): Why negotiating usually protects you better than resigning outright.
+- [Solicitor vs ACAS](https://www.settlementsolicitors.com/solicitor-vs-acas/): The difference between ACAS conciliation and independent legal advice.
+- [Insights](https://www.settlementsolicitors.com/insights/): Commentary and updates section — no articles published yet.
+
+## Contact
+- Phone: 020 3058 3365
+- Email: enquiries.sa@ackroydlegal.com
+- Address: 16 Prescot Street, London, E1 8AZ, United Kingdom
+- Regulated by the Solicitors Regulation Authority (SRA).

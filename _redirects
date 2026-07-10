@@ -1,0 +1,6 @@
+# Stale/removed URLs -> closest relevant page (301)
+/process/            /                        301
+/services/           /settlement-agreements/  301
+/privacy              /privacy-policy/         301
+/privacy/            /privacy-policy/         301
+/locations/belfast/  /locations/              301
