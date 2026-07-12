@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const yr = document.getElementById('yr');
+  if (yr) yr.textContent = new Date().getFullYear();
+
   // Mobile nav (full-screen overlay menu)
   const toggle = document.querySelector('.mobile-toggle');
   const nav = document.querySelector('.nav-links');

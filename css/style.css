@@ -507,7 +507,27 @@ body.menu-open { overflow: hidden; }
 .site-footer {
   background: var(--dark);
   color: rgba(255,255,255,0.5);
-  padding: 32px 0;
+  padding: 48px 0 0;
+}
+.footer-links-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+.footer-links-grid h4 {
+  color: rgba(255,255,255,0.85);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 14px;
+}
+.footer-links-grid ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 9px; }
+.footer-links-grid a { color: rgba(255,255,255,0.55); font-size: 0.85rem; }
+.footer-links-grid a:hover { color: var(--white); }
+@media (max-width: 800px) {
+  .footer-links-grid { grid-template-columns: repeat(2, 1fr); }
 }
 .footer-inner {
   display: flex;
@@ -516,6 +536,7 @@ body.menu-open { overflow: hidden; }
   flex-wrap: wrap;
   gap: 12px;
   font-size: 0.82rem;
+  padding: 20px 0 32px;
 }
 .footer-inner a { color: rgba(255,255,255,0.5); }
 .footer-inner a:hover { color: var(--white); }
