@@ -90,9 +90,8 @@ document.addEventListener('DOMContentLoaded', () => {
           body: new FormData(form)
         });
         if (res.ok) {
-          form.style.display = 'none';
-          const s = form.nextElementSibling;
-          if (s && s.classList.contains('form-success')) s.style.display = 'block';
+          const next = form.querySelector('input[name="_next"]');
+          window.location.href = next ? next.value : '/thank-you/';
         } else { throw new Error(); }
       } catch {
         alert('There was a problem. Please call us on 020 3058 3365.');
