@@ -21,6 +21,7 @@
 - [About](https://www.settlementsolicitors.com/about/): About the firm.
 - [Contact](https://www.settlementsolicitors.com/contact/): Contact details and enquiry form.
 - [Glossary](https://www.settlementsolicitors.com/glossary/): Plain-English definitions of employment law and settlement agreement terms.
+- [Redundancy calculator](https://www.settlementsolicitors.com/redundancy-calculator/): Free tool to estimate UK statutory redundancy pay.
 - [Settlement agreement vs redundancy](https://www.settlementsolicitors.com/settlement-agreement-vs-redundancy/): How the two relate and what to check before signing.
 - [Settlement agreement vs resignation](https://www.settlementsolicitors.com/settlement-agreement-vs-resignation/): Why negotiating usually protects you better than resigning outright.
 - [Solicitor vs ACAS](https://www.settlementsolicitors.com/solicitor-vs-acas/): The difference between ACAS conciliation and independent legal advice.
