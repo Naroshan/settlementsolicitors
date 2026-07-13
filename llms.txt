@@ -21,6 +21,7 @@
 - [About](https://www.settlementsolicitors.com/about/): About the firm.
 - [Contact](https://www.settlementsolicitors.com/contact/): Contact details and enquiry form.
 - [Glossary](https://www.settlementsolicitors.com/glossary/): Plain-English definitions of employment law and settlement agreement terms.
+- [Settlement calculator](https://www.settlementsolicitors.com/settlement-calculator/): Free tool giving an indicative range for a settlement agreement payment.
 - [Redundancy calculator](https://www.settlementsolicitors.com/redundancy-calculator/): Free tool to estimate UK statutory redundancy pay.
 - [Garden leave](https://www.settlementsolicitors.com/garden-leave/): What garden leave means, pay, new jobs, and how it relates to restrictive covenants.
 - [Gross misconduct](https://www.settlementsolicitors.com/gross-misconduct/): What counts as gross misconduct, whether it always means dismissal, and rights if accused.
