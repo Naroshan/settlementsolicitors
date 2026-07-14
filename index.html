@@ -212,7 +212,7 @@
             <p class="font-serif text-lg font-medium text-[#17211f]">Get your free assessment</p>
             <p class="mt-1 text-xs" style="color:#7b8681">A specialist solicitor will review your situation and reply the same working day.</p>
           </div>
-          <input type="hidden" name="_next" value="/thank-you.html" />
+          <input type="hidden" name="_next" value="/thank-you/" />
           <div class="grid gap-4 md:grid-cols-2">
             <div><label><span>Full name</span><input type="text" name="name" required /></label></div>
             <div><label><span>Phone</span><input type="tel" name="phone" required /></label></div>
@@ -385,34 +385,32 @@
   })();
 
   // Form submission
-  const form = document.getElementById('contact-form');
-  const btn = document.getElementById('submit-btn');
-  const success = document.getElementById('form-success');
-  const error = document.getElementById('form-error');
+  const form = document.getElementById('hero-contact-form');
+  const btn = document.getElementById('hero-submit-btn');
+  const error = document.getElementById('hero-form-error');
 
-  form.addEventListener('submit', async function(e) {
-    e.preventDefault();
-    btn.disabled = true;
-    btn.innerHTML = 'Sending enquiry <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>';
+  if (form) {
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      btn.disabled = true;
+      btn.innerHTML = 'Sending enquiry <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>';
 
-    try {
-      const res = await fetch('https://formspree.io/f/mojzlojd', {
-        method: 'POST',
-        headers: { 'Accept': 'application/json' },
-        body: new FormData(form)
-      });
-      if (res.ok) {
-        form.querySelector('.grid').style.display = 'none';
-        form.querySelector('[rows]').closest('div').style.display = 'none';
-        btn.style.display = 'none';
-        success.classList.remove('hidden');
-      } else { throw new Error(); }
-    } catch {
-      error.classList.remove('hidden');
-      btn.disabled = false;
-      btn.innerHTML = 'Send enquiry <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>';
-    }
-  });
+      try {
+        const res = await fetch('https://formspree.io/f/mojzlojd', {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: new FormData(form)
+        });
+        if (res.ok) {
+          window.location.href = '/thank-you/';
+        } else { throw new Error(); }
+      } catch {
+        error.classList.remove('hidden');
+        btn.disabled = false;
+        btn.innerHTML = 'Send enquiry <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>';
+      }
+    });
+  }
 </script>
 <!-- Start of LiveChat (www.livechat.com) code -->
 <script>
@@ -421,7 +419,7 @@
     window.__lc.integration_name = "manual_channels";
     window.__lc.product_name = "livechat";
     window.__lc.asyncInit = true;
-    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice));
     /* Perf: defer LiveChat load until first interaction or 5s idle */
     (function(){var L=false;function lc(){if(L)return;L=true;if(window.LiveChatWidget)window.LiveChatWidget.init();}
     ["mousemove","touchstart","scroll","keydown","click"].forEach(function(e){window.addEventListener(e,lc,{once:true,passive:true});});
