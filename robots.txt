@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /thank-you/
 Disallow: /__forms.html
+Disallow: /restricted/
 Disallow: /insights/_template-example-post/
 Sitemap: https://www.settlementsolicitors.com/sitemap.xml

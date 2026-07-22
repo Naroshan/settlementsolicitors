@@ -3,6 +3,13 @@
 
 [[redirects]]
   from = "/*"
+  to = "/restricted/"
+  status = 403
+  force = true
+  conditions = {Country = ["NG", "PK", "RU", "IN"]}
+
+[[redirects]]
+  from = "/*"
   to = "/404/index.html"
   status = 404
 
