@@ -28,7 +28,10 @@
 - [Settlement agreement vs redundancy](https://www.settlementsolicitors.com/settlement-agreement-vs-redundancy/): How the two relate and what to check before signing.
 - [Settlement agreement vs resignation](https://www.settlementsolicitors.com/settlement-agreement-vs-resignation/): Why negotiating usually protects you better than resigning outright.
 - [Solicitor vs ACAS](https://www.settlementsolicitors.com/solicitor-vs-acas/): The difference between ACAS conciliation and independent legal advice.
-- [Insights](https://www.settlementsolicitors.com/insights/): Commentary and updates section — no articles published yet.
+- [Insights](https://www.settlementsolicitors.com/insights/): Commentary and articles on employment law topics.
+  - [Without prejudice vs protected conversations](https://www.settlementsolicitors.com/insights/without-prejudice-vs-protected-conversations/): The difference between the two rules that keep exit conversations out of a tribunal, and what each does and doesn't cover.
+  - [Redundancy selection criteria](https://www.settlementsolicitors.com/insights/redundancy-selection-criteria/): What makes a redundancy selection process fair, common criteria that cause problems, and warning signs of an unfair process.
+  - [Negotiating a settlement agreement](https://www.settlementsolicitors.com/insights/negotiating-a-settlement-agreement/): Five terms besides the settlement figure that are often negotiable — reference wording, notice/termination date, restrictive covenants, bonus/holiday pay, and confidentiality scope.
 
 ## Contact
 - Phone: 020 3058 3365
